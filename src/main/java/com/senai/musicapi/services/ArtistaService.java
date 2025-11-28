@@ -35,7 +35,7 @@ public class ArtistaService {
 		Artista aVelho = repository.findById(id).get();
 
 		aVelho.setNome(aNovo.getNome());
-		aVelho.setGeneroMusical(aNovo.getGeneroMusical());
+		aVelho.setGenero(aNovo.getGenero());
 		aVelho.setNacionalidade(aNovo.getNacionalidade());
 		aVelho.setAnoEstreia(aNovo.getAnoEstreia());
 
